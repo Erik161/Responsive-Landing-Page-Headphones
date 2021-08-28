@@ -31,4 +31,7 @@
     --smaller-font-size:.75rem;
     --text-line-height:2rem;
 
+    /* font weight */
+    --font-medium:500;
+    --font-semi-bold:600;
 }
