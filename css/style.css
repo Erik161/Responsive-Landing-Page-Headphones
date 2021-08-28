@@ -1,1 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+
+/*-------------------------------- VARIBLES--------------------------- */
+:root{
+    --header-height: 3rem;
+
+    /* Colors */
+    --hue-color:206;
+    --black-color: hsl(var(--hue-color), 4%, 4%);
+    --black-color-alt:hsl(var(--hue-color), 4%, 8%);
+    --title-color: hsl(var(--hue-color),4%, 95%);
+    --text-color: hsl(var(--hue-color),4%, 75%);
+    --text-color-light: hsl(var(--hue-color),4%, 65%);
+    --white-color: #FFF;
+    --body-color:hsl(var(--hue-color), 4%, 6%);
+    --container-color: hsl(var(--hue-color),4%, 10%);
+    --text-gradient: linear-gradient(hsl(var(--hue-color),4%, 8%));
+    --scroll-thumb-color: hsl(var(--hue-color), 4%, 16%);
+    --scroll-thumb-color-alt:hsl(var(--hue-color), 4%, 20%);
+
+}
