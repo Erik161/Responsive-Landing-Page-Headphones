@@ -1,0 +1,22 @@
+{
+  "name": "responsive-landing-page-headphones",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Erik161/Responsive-Landing-Page-Headphones.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Erik161/Responsive-Landing-Page-Headphones/issues"
+  },
+  "homepage": "https://github.com/Erik161/Responsive-Landing-Page-Headphones#readme",
+  "devDependencies": {
+    "sass": "^1.52.0"
+  }
+}
