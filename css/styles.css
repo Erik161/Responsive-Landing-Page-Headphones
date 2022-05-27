@@ -209,6 +209,14 @@ img {
   background-color: var(--body-color);
 }
 
+/*active Link*/
+.active-link {
+  background: var(--white-color);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
 /*=============== HOME ===============*/
 .home__img {
   width: 250px;
@@ -488,6 +496,21 @@ img {
 /* Show Scroll Up*/
 .show-scroll {
   bottom: 5rem;
+}
+
+/*=============== SCROLL BAR ===============*/
+::-webkit-scrollbar {
+  width: 0.6rem;
+  border-radius: 0.5rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--scroll-thumb-color);
+  border-radius: 0.5rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--scroll-thumb-color-alt);
 }
 
 /*# sourceMappingURL=styles.css.map */
