@@ -693,5 +693,39 @@ img {
     grid-template-columns: 0.4fr 0.7fr 0.7fr 1fr;
   }
 }
+/*For Large Devices*/
+@media screen and (min-width: 1024px) {
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .home__img {
+    width: 300px;
+    top: -15rem;
+  }
+  .home__title {
+    top: -5rem;
+    left: 3.5rem;
+  }
+  .home__description {
+    padding-right: 5rem;
+  }
+
+  .sponsor__img {
+    width: 100px;
+  }
+
+  .discount__img {
+    width: 350px;
+  }
+
+  .footer__container {
+    padding-top: 3rem;
+  }
+  .footer__copy {
+    margin-top: 9rem;
+  }
+}
 
 /*# sourceMappingURL=styles.css.map */

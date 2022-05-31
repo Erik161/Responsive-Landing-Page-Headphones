@@ -219,3 +219,46 @@
         grid-template-columns: .4fr .7fr .7fr 1fr;
     }
 }
+
+
+/*For Large Devices*/
+@media screen and (min-width: 1024px){
+    .container{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .home{
+        &__img{
+            width: 300px;
+            top: -15rem;
+        }
+        &__title{
+            top: -5rem;
+            left: 3.5rem;
+        }
+        &__description{
+            padding-right: 5rem;
+        }
+    }
+
+    .sponsor__img{
+        width: 100px;
+    }
+
+    .discount__img{
+        width: 350px;
+    }
+
+    .footer{
+        &__container{
+            padding-top: 3rem;
+        }
+        &__copy{
+            margin-top: 9rem;
+        }
+    }
+}
+
+
+
