@@ -124,11 +124,8 @@
     }
 }
 
-
-
-@media screen and (min-width:767px){
+@media screen and (min-width: 767px){
     body{
-        
         margin: 0;
     }
 
@@ -138,20 +135,19 @@
 
     .nav{
         height: calc(var(--header-height) + 1.5rem);
+
         &__logo{
             width: 2rem;
         }
-    
+
         &__list{
             flex-direction: row;
             column-gap: 3.5rem;
         }
-
         &__link{
             font-size: var(--normal-font-size);
             text-transform: initial;
         }
-
         &__toggle,
         &__close{
             display: none;
@@ -161,14 +157,12 @@
     .home{
         &__container{
             position: relative;
-            grid-template-columns: repeat(2,1fr);
+            grid-template-columns: repeat(2, 1fr);
         }
-
         &__img{
-            top:-9rem;
-            left:4rem;
-        }
-
+            top: -9rem;
+            left: 4rem;
+        }  
         &__data{
             padding-top: 8rem;
         }
@@ -182,11 +176,9 @@
         &__container{
             column-gap: 5rem;
         }
-    
         &__img{
             width: 300px;
         }
-
         &__description{
             margin-bottom: var(--mb-2);
         }
@@ -199,12 +191,10 @@
             column-gap: 5rem;
             padding: 3rem 0;
         }
-
         &__title{
             font-size: var(--h2-font-size);
-            margin-bottom:var(--mb-1) ;
+            margin-bottom: var(--mb-1);
         }
-
         &__description{
             margin-bottom: var(--mb-2);
         }
@@ -212,26 +202,20 @@
 
     .products{
         &__container{
-            grid-template-columns: repeat(3,162px);
+            grid-template-columns: repeat(3, 162px);
             gap: 6rem 3rem;
             padding-top: 5rem;
         }
-
         &__card{
             height: 152px;
             padding: .85rem;
         }
-
         &__img{
             width: 95px;
         }
     }
 
     .footer__container{
-        grid-template-columns: .4fr .7fr .7fr .1fr;
+        grid-template-columns: .4fr .7fr .7fr 1fr;
     }
-
-    
 }
-
-

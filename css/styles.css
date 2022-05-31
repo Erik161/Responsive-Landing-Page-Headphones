@@ -690,7 +690,7 @@ img {
   }
 
   .footer__container {
-    grid-template-columns: 0.4fr 0.7fr 0.7fr 0.1fr;
+    grid-template-columns: 0.4fr 0.7fr 0.7fr 1fr;
   }
 }
 
