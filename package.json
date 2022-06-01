@@ -18,5 +18,8 @@
   "homepage": "https://github.com/Erik161/Responsive-Landing-Page-Headphones#readme",
   "devDependencies": {
     "sass": "^1.52.1"
+  },
+  "dependencies": {
+    "scrollreveal": "^4.0.9"
   }
 }
