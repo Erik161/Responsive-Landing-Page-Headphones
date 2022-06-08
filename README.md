@@ -1,5 +1,5 @@
 
-# Responsive-Landing-Page-Headphones [:arrow_right: PREVIEW :arrow_left:](https://erik161.github.io/Responsive-Landing-Page-Headphones/) 
+# Responsive-Landing-Page-Headphones [:arrow_right: PREVIEW](https://erik161.github.io/Responsive-Landing-Page-Headphones/) 
  
 
 # MOBILE FIRST
